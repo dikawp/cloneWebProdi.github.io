@@ -1,0 +1,615 @@
+/* ___________ code by Ramadika W.P.S_____________
+Ngopi boleh, Ngopy jangan. _______________________
+___________________¶¶¶____¶¶¶____¶¶¶______________
+__________________1¶¶1___1¶¶1____¶¶1______________
+_________________¶¶¶____¶¶¶1___1¶¶1_______________
+________________11_____111_____11_________________
+__________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________
+1¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________
+1¶¶¶¶¶¶¶¶¶¶¶__1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________
+1¶¶_______¶¶__1¶¶ NIM : 1204210024 ¶¶¶¶¶¶¶________
+1¶¶_______¶¶__1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________
+1¶¶_______¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________
+1¶¶_______¶¶__1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________
+_¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________
+_¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________
+__________¶¶___1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1________
+__________1¶¶___¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_________
+____________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶11__________
+11_____________________________________________111
+1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1
+__¶¶111111111¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶111111111¶__
+ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+:root {
+    --main-color: #4624af;
+    --second-color: #483b71;
+    --text-color: white;
+  }
+
+  *{
+    box-sizing: border-box;
+    font-family: "roboto";
+  }
+
+  html, body{
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Class Button */
+  #button {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding:  12px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border-radius: 30px;
+    font-size: 1.1em;
+    margin-top: 0%;
+  }
+
+  .linked{
+    text-decoration: none;
+  }
+
+/* Header 'Navbar' */
+  .container{
+    background-image: linear-gradient(90deg, rgba(72,59,113,0.799614914325105) 100%, rgba(72,59,113,0.799614914325105) 100%), 
+    url("../images/01.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    z-index: 100;
+  }
+  
+  .nav-container header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 60px;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+  
+  .nav-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-container li a {
+    display: block;
+    color: white;
+    padding: 0 1.1em;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+    margin: 10px 10px 0px;
+  }
+  
+  .nav-container li a:hover {
+    color: var(--main-color);
+    transition: all 0.3s;
+  }
+  
+  .nav-container header label,
+  #hamburger {
+    display: none;
+  }
+
+  header .logo img{ 
+    padding-top: 10px;
+    width: 150px;
+  }
+
+  .btnAdm{
+   padding: 15px 0px;
+  }
+
+  .nav-container header label, #hamburger { 
+    display: none;
+  }
+/* End Navbar */
+
+
+/* HERO 'EXCELLENT' */
+  .hero-text {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 4em;
+    color: var(--text-color);
+  }
+  
+  .hero-text p {
+    font-size: 17px;
+    margin-top: 0;
+    color: var(--text-color);
+  }
+
+  .btnPljr{
+    padding: 50px;
+  }
+/* End  */
+
+/* Block-Items */
+  .block-items{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0 5px 5px 0 rgb(18 63 82 / 4%), 0 0 0 1px rgb(176 181 193 / 20%);
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    padding: 40px 35px;
+  }
+  
+  .img-items img{
+    width: 70px;
+  }
+
+  .text-items h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--second-color);
+  }
+
+  .text-items p{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/* End  */
+
+
+/* Block-Content' */
+  .block-content{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 5px 5px 0 rgb(18 63 82 / 4%), 0 0 0 1px rgb(176 181 193 / 50%);
+    background-color: #fff;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+  }
+
+  .img-content{
+    width: 40%;
+  }
+  .img-content img{
+    width: 100%;
+    padding: 25px;
+    border-radius: 35px;
+  }
+
+  .text-content{
+    width: 60%;
+    margin: 30px 0px;
+  }
+  .text-content h3{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .text-content h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+  }
+/* End */
+
+/* Block-Kaprodi */
+  #kaprodi{
+    margin-bottom: 60px;
+  }
+  .block-kaprodi{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+  }
+
+  .img-kaprodi{
+    width: 45%;
+  }
+  .img-kaprodi img{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding: 20px;
+    border-radius: 35px;
+    margin: auto;
+  }
+  .img-kaprodi h3{
+    text-align: center;
+    color: #483b71;
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+  .img-kaprodi h3 span{
+    font-weight: 400;
+  }
+
+  .text-kaprodi{
+    width: 55%;
+  }
+
+  .text-kaprodi img{
+    margin-top: 30px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-kaprodi h1{
+    font-size: 30px;
+    margin: 0%;
+  }
+/* End */
+
+
+/* Vidio */
+  .vidio{
+    overflow: hidden;
+    background: linear-gradient(117deg, rgba(0,0,0,0.6) 100%, rgba(92,92,92,0) 100%), url("../images/kumpul.cut.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+  }
+
+  .vidio a{
+    margin: auto;
+    color: var(--main-color);
+  }
+
+  .vidio a img{
+    display: flex;
+    width: 20%;
+    margin: auto;
+  }
+/* End */
+
+/* Block-Visi */
+  #visi{
+    margin-bottom: 60px;
+  }
+
+  .block-visi{
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .text-visi{
+    width: 45%;
+  }
+
+  .text-visi p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #243b56;
+    margin: 0px 0px 24px;
+  }
+
+  .text-visi ul{
+    list-style-image: url('../images/list.svg');
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .text-visi ul li{
+    margin: 0px 0px 16px;
+  }
+  
+  .img-visi{
+    width: 45%;
+  }
+
+  .img-visi img{
+    width: 100%;
+  }
+/* End */
+
+/* Block-Kemitraan */
+  .block-kemitraan{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(70,36,175,0.1);
+    height: 190px;
+  }
+
+  .content-kemitraan{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .content-kemitraan h3{
+    font-size: 23px;
+    text-align: end;
+    margin: 20px 0px 13px;
+    border-bottom: solid 4px var(--main-color);
+  }
+/* End */
+
+/* Block-Nganu */
+  .block-statis{
+      background-image: linear-gradient(117deg, rgba(0,0,0,0.6) 100%, rgba(92,92,92,0) 100%), url("../images/kumpul.jpg");
+      height: 45vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-evenly;
+      color: var(--text-color);
+    }
+
+  .item-statis h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0px 0px 16px;
+  }
+  
+  .item-statis h3{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0%;
+  }
+/* End */
+
+/* Block-Mahasiswa*/
+  #mahasiswa{
+    margin-top: 60px;
+  }
+
+  .block-mahasiswa{
+    text-align: center;
+  }
+  
+  .block-mahasiswa p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 550;
+    color: var(--main-color); 
+  }
+
+  .block-mahasiswa h1{
+    margin: 10px 0px 0px;
+    font-size: 30px;
+  }
+
+  .content-mahasiswa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+  }
+
+  .item-mahasiswa{
+    width: 25%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px 0 rgb(18 63 82 / 4%), 0 0 0 1px rgb(176 181 193 / 20%);
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px 0px auto;
+    padding: 40px 35px;
+  }
+  
+  .img-mahasiswa img{
+    width: 100px;
+  }
+
+  .text-items h3{
+    color: #323232;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0px 10px;
+  }
+
+  .text-items p{
+    color: #868686;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 0px 20px;
+  }
+
+  .rating i{
+    color: #FFB800;
+  }
+/* End */
+
+/* Block-Blog */
+  #blog{
+    margin-top: 120px;
+  }
+
+  .block-blog{
+    text-align: center;
+  }
+
+  .block-blog p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 550;
+    color: var(--main-color); 
+  }
+
+  .block-blog h1{
+    margin: 10px 0px 0px;
+    font-size: 30px;
+  }
+
+  .content-blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+  }
+
+  .item-blog{
+    width: 25%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 5px 0 rgb(18 63 82 / 4%), 0 0 0 1px rgb(176 181 193 / 20%);
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0px 0px auto;
+    padding: 15px;
+  }
+
+  .img-blog img{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .text-blog a{
+    text-decoration: none;
+    color: #323232;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .page-number{
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .page-number :hover{
+    background-color: var(--main-color) ;
+    color: white;
+  }
+  .page-number .active{
+    background-color: var(--main-color) ;
+    color: white;
+  }
+
+  .page-number a{
+    text-align: center;
+    box-shadow: 0 5px 5px 0 rgb(18 63 82 / 4%), 0 0 0 1px rgb(176 181 193 / 50%);
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: block;
+    width: 5%;
+    padding: 10px;
+    margin: 10px;
+  }
+/* End */
+
+/* Exc */
+  .exc{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+  }
+
+/* Footer */
+  #footer{
+    background-color:#111518 ;
+    color: #fff;
+  }
+
+  .block-footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .block-left{
+    width: 45%;
+  }
+  .block-left h2{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .block-left p{
+    font-weight: 400;
+    color: #c0c0c0;
+  }
+
+  .block-mid{
+    width: 25%;
+  }
+  .block-mid h2{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .block-mid ul{
+    list-style-type: none;
+    padding: 0%;
+  }
+  .block-mid ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 400;
+    color: #c0c0c0;
+    padding: 0%;
+  }
+
+  .block-right{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-bottom: 100px;
+  }
+  .block-right h2{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .block-right a{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+  }
+  .alamat{
+    display: flex;
+  }
+/* End */
+
+/* Ramadika Wijaya P.S
+  NIM : 1204210024 */

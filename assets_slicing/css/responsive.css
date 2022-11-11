@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px){
+    /* HEADER */
+  .nav-container header label { 
+    display: inline-block; 
+    color: white;
+    font-style: normal;
+    font-size: 2rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+  }
+
+  .nav-container header {
+    width: 100%;
+  } 
+
+  .nav-container nav ul {
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+
+  .nav-container li a {
+    display: block;
+    color: white;
+    background-color: var(--dark-color);
+    padding: 0 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: auto;
+  }
+
+  .nav-container li a:hover {
+    border-bottom: none;
+  }
+
+  .nav-container .logo {
+    position: absolute;
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .btnAdm{
+    display: none;
+  }
+
+  .nav-container nav { display: none; }
+
+  .nav-container header input:checked ~ nav { 
+    display: flex; 
+  }
+}
